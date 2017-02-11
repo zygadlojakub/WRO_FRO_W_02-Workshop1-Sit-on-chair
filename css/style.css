@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-bold.woff2') format('woff2'),
+         url('../fonts/raleway-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+html {
+    font-family: "raleway", Arial, sans-serif;
+    font-weight: normal;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+/* header */
+header {
+    background-color: black;
+    color: white;
+}
+nav {
+    height: 
+}
+div.logo {
+    float:left;
+    padding: 10px 0;
+}
+ul {
+    float: right;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    padding: 10px 0 10px 30px;
+}
+nav:after {
+    clear: both;
+    content: " ";
+    display: block;
+}
+/* main */
+section.chair {
+    height: 500px;
+    background-color: grey;
+}
