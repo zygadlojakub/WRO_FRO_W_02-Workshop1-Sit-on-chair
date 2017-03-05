@@ -16,7 +16,7 @@
     font-style: normal;
 }
 
-/* general */
+/* ------- general ------- */
 * {
     box-sizing: border-box;
 }
@@ -25,10 +25,10 @@ html {
     font-weight: normal;
 }
 .main_width {
-    width: 1200px;
+    width: 1240px;
     margin: 0 auto;
     border: 1px solid red;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 a {
     text-decoration: none;
@@ -64,7 +64,7 @@ nav:after {
     content: " ";
     display: block;
 }
-/* main */
+/* ------- main ------- */
 
 /* slider */
 section.slider-background {
@@ -114,7 +114,6 @@ div.slider-content h1 {
 }
 
 /* 2 fotos */
-
 section.fotos a {
     font-size: 16px;
     color: black;
@@ -124,16 +123,50 @@ section.fotos a {
 figure {
     position: relative;
     float: left;
+    margin: 30px 30px 30px 0;
 }
 figure div.background {
+    position: absolute;
+    bottom: 16px;
     width: 375px;
     height: 70px;
     background-color: rgba(255, 255, 255, 0.4);
 }
-div.description::after {
+div.description {
+    float: left;
+    padding: 24px;
+    width: 385px;
+    margin: 30px 0 30px 0;
+    border: 1px solid #dadada;
+}
+section.fotos::after {
     content: " ";
     display: block;
     clear: both;
+}
+
+/* cennik */
+section.plans {
+    background-color: #f1f1f1;
+}
+div.plan {
+    margin-right: 35px;
+    width: 372px;
+    border: 2px solid #d3d3d3;
+    background-color: #f9f9f9;
+    position: relative;
+    float: left;
+}
+div.plan > .circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #c2c2c2;
+    border: 2px solid #d3d3d3;
+    border-radius: 30px;
+    box-shadow: 0 0 0 15px white inset;
+    top: -30px;
+    left: 156px;
 }
 
 
