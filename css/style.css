@@ -23,6 +23,7 @@
 html {
     font-family: "raleway", Arial, sans-serif;
     font-weight: normal;
+    font-size: 16px;
 }
 .main_width {
     width: 1240px;
@@ -36,6 +37,13 @@ a {
 span {
     font-weight: bold;
     color: #21b9a2;
+}
+a.button {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    background-color: #27c7ab;
 }
 
 /* header */
@@ -107,6 +115,7 @@ section.slider-background {
 
 div.slider-content * {
     text-align: center;
+    line-height: 1.5;
 }
 div.slider-content h1 {
     font-size: 42px;
@@ -134,10 +143,14 @@ figure div.background {
 }
 div.description {
     float: left;
-    padding: 24px;
+    padding: 26px;
     width: 385px;
     margin: 30px 0 30px 0;
     border: 1px solid #dadada;
+    line-height: 1.5;
+}
+div.description p {
+    margin-bottom: 22px;
 }
 section.fotos::after {
     content: " ";
@@ -150,7 +163,6 @@ section.plans {
     background-color: #f1f1f1;
 }
 div.plan {
-    margin-right: 35px;
     width: 372px;
     border: 2px solid #d3d3d3;
     background-color: #f9f9f9;
@@ -167,6 +179,11 @@ div.plan > .circle {
     box-shadow: 0 0 0 15px white inset;
     top: -30px;
     left: 156px;
+}
+section.plans div.main_width::after {
+    clear: both;
+    display: block;
+    content: "";
 }
 
 
