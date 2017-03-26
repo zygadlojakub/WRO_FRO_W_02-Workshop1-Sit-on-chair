@@ -104,13 +104,17 @@
             <section class="main_width">
                 <h2>KONTAKT</h2>
                 <form>
-                    <div>
-                        <input type="text" placeholder="Imię">
-                        <input type="email" placeholder="email">
-                        <textarea placeholder="Wiadomość"></textarea>
+                    <div class="data">
+                        <input type="text" name="name" placeholder="Imię">
+                        <input type="email" name="email" placeholder="email">
+                        <textarea name="message" placeholder="Wiadomość"></textarea>
                     </div>
-                    <div>
-                        <input type="checkbox" checked>
+                    <div class="agreement">
+                        <div class="form-background"></div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="agreement" checked>
+                            <label for="agreement"></label>
+                        </div>
                         <p>
                             Zgadzam się na przetwarzanie danych osobowych.
                         </p>

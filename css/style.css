@@ -50,17 +50,20 @@ a.button {
 /* header */
 header {
     background-color: black;
-    color: white;
+    color: #ffffff;
     width: 100%;
 }
+header a:link {
+    color: #ffffff;
+}
 header a:visited {
-    color: white;
+    color: #ffffff;
 }
 header a:hover {
-    color: white;
+    color: #ffffff;
 }
 header a:active {
-    color: white;
+    color: #ffffff;
 }
 div.logo {
     float:left;
@@ -304,4 +307,65 @@ section.plans div.main_width::after {
     content: "";
 }
 
+/* formularz */
+.data {
+    width: 723px;
+    margin-right: 65px;
+    float: left;
+}
+.data input,textarea {
+    display: inline-block;
+    width: 723px;
+    height: 73px;
+    margin-bottom: 30px;
+    border: 1px solid #bfded6;
+}
+.data textarea {
+    height: 213px;
+    resize: none;
+}
+.agreement {
+    width: 390px;
+    float: left;
+}
+input[placeholder], textarea[placeholder] {
+    font-size: 34px;
+    text-indent: 16px;
+}
+.checkbox {
+    float: left;
+}
+.agreement + p {
+    float: left;
+}
+.form-background {
+    width: 390px;
+    height: 210px;
+    margin-bottom: 44px;
+    background-image: url(../images/red_chair.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+input[type=checkbox] {
+    display:none;
+}
+input[type=checkbox] + label {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    margin-right: 16px;
+    border: 1px solid #bfded6;
+}
+input[type=checkbox]:checked  + label {
+    background-image: url(../images/form_ok.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+form::after {
+    clear: both;
+    display: block;
+    content: "";
+}
 
