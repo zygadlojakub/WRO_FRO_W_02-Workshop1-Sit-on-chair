@@ -1,4 +1,5 @@
-/* fonts */
+
+/* ------- fonts ------- */
 @font-face {
     font-family: 'raleway';
     src: url('../fonts/raleway-regular.woff2') format('woff2'),
@@ -23,8 +24,9 @@
     font-weight: normal;
     font-style: normal;
 }
-
-/* ------- general ------- */
+/* \\\\\\\\\\\\\\\\\\\\\\\
+ ------- general ------- 
+/////////////////////// */
 * {
     box-sizing: border-box;
 }
@@ -60,7 +62,9 @@ h2 {
     border-bottom: 8px solid #28c6ad;
     padding-bottom: 8px;
 }
-/* header */
+/* \\\\\\\\\\\\\\\\\\\\\\\
+ ------- header ------- 
+/////////////////////// */
 header {
     background-color: black;
     color: #ffffff;
@@ -121,9 +125,11 @@ nav:after {
     content: " ";
     display: block;
 }
-/* ------- main ------- */
+/* \\\\\\\\\\\\\\\\\\\\\\\
+ ------- main ------- 
+/////////////////////// */
 
-/* slider */
+/* ------- slider ------- */
 section.slider-background {
     height: 570px;
     width: 100%;
@@ -186,7 +192,7 @@ div.slider-content a.button {
     line-height: 1;
 }
 
-/* 2 fotos */
+/* ------- 2 fotos ------- */
 section.fotos a {
     display: inline-block;
     width: 157px;
@@ -230,7 +236,7 @@ section.fotos::after {
     clear: both;
 }
 
-/* cennik */
+/* ------- plans ------- */
 section.plans {
     background-color: #f1f1f1;
     width: 100%;
@@ -354,7 +360,7 @@ section.plans div.main_width::after {
     content: "";
 }
 
-/* formularz */
+/* ------- contact form ------- */
 section.contact.main_width {
     padding: 30px 20px 75px 20px;
 }
@@ -437,7 +443,9 @@ form::after {
     display: block;
     content: "";
 }
-/* footer */
+/* \\\\\\\\\\\\\\\\\\\\\\\
+ ------- footer ------- 
+/////////////////////// */
 footer.main_width {
     padding: 20px 20px 55px 20px;
     font-size: 16px;
